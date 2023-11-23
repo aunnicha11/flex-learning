@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link href="/css/style.css" rel="stylesheet" /> -->
+    <title>Workshop 1</title>
+  </head>
+  <body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            align-items: center;
+            position: relative; /* parent => relative */
+        }
+        .outerbox{
+            height: 100vh;
+            display: flex;
+            background-color: bisque;
+            flex-direction: column;
+        }
+    
+        .innerhead{
+            background-color: purple;
+            height: 100px;
+            width: 400px;
+            top: 50px;
+            border: 2px white solid;
+        }
+
+        .innercontent{
+            background-color: pink;
+            height: 150px;
+            width: 400px;
+            top: 50px;
+            border: 2px white solid;
+        }
+
+        .innerfooter{
+            background-color: orange;
+            height: 100px;
+            width: 400px;
+            top: 50px;
+            border: 2px white solid;
+        }
+
+        .keyword{
+            display: flex; /* Use flexbox */
+            flex-direction: row; /* Arrange children horizontally */
+            align-items: center; /* Center vertically */
+            height: 100px;
+            width: 400px;
+            top: 100px;
+            border: 2px white solid;
+        }
+
+        .workshop3{
+            display: flex; /* Use flexbox */
+            flex-direction: row; /* Arrange children horizontally */
+            align-items: center; /* Center vertically */
+            height: 100px;
+            width: 400px;
+            top: 150px;
+            border: 2px white solid;
+        }
+
+    </style>
+
+    <div class="outerbox">
+
+        <div class="innerhead">
+            <p>This is my Header!!</p>
+        </div>
+        <div class="innercontent">
+            <p>This is my Content!!</p>
+        </div>
+        <div class="innerfooter">
+            <p>This is my Footer!!</p>
+        </div>
+
+        <div class="keyword">
+            <label>Keywords</label>
+            <input type="text" />
+            <button>Submit</button>
+        </div>
+
+        <div class="workshop3">
+
+        </div>
+
+    </div>
+  </body>
+</html>

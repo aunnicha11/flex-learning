@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .app {
+    height: 100vh;
+    /* background: wheat; */
+    /* FLEX */
+    /* Parent-A */
+    display: flex; 
+  }
+  .left {
+    background: green;
+    /* Child-A */
+    flex: 1;
+  }
+  .right {
+    /* background: orangered; */
+    /* Child-A */
+    flex: 1;
+    padding: 40px;
+    /* Parent-B */
+    display: flex;
+    /* flex-direction: column; */
+    /* row,justify-start */
+    align-items: center;
+  }
+
+  img {
+    height: 100vh;
+    object-fit: cover;
+  }
+  @media (max-width: 460px) {
+    .left {
+      display: none;
+    }
+  }
